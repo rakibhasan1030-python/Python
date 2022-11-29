@@ -11,4 +11,4 @@ finally:
     # again if program exit in exept bloc, then only finally bloc will be execte, no code will execute after finally bloc
     print("We're done!")
 
-print("This messege will not print because exept bloc program perform exit!")
+print("This messege will not print if error occurs because except bloc program perform exit, otherwise it'll print easily!")
