@@ -6,9 +6,9 @@ while(True):
     try:
         a = int(a)
         if a > 10:
-            print(str(a) + " is greater than 10\n")
+            print(f"{a} is greater than 10\n")
         else:
-            print(str(a) + " is less than 10\n")
+            print(f"{a} is less than 10\n")
     except Exception as e:
         print(f"You've entered an wrong value : {e}")
 
